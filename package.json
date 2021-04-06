@@ -1,0 +1,26 @@
+{
+  "name": "javascriptmistakes",
+  "version": "1.0.0",
+  "description": "sillyjsmistakes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msateesh900/javascriptmistakes.git"
+  },
+  "keywords": [
+    "jsmistakes"
+  ],
+  "author": "MS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msateesh900/javascriptmistakes/issues"
+  },
+  "homepage": "https://github.com/msateesh900/javascriptmistakes#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
