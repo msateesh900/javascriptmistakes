@@ -83,4 +83,19 @@ const ageStr = "30";
 
 console.log("Numbers and Strings can be Equal Scenario1", age == ageStr);
 
+// Scenario2
 console.log("Numbers and Strings can be Equal Scenario2", age === ageStr);
+
+// Scenario3
+console.log("Numbers and Strings can be Equal Scenario3", age + ageStr);
+
+// 4.*false* is true(thy)
+
+// Scenario1
+const devMode = "false";
+
+if (!devMode) {
+  console.log("*false* Scenario1 not dev Mode");
+} else {
+  console.log("*false* Scenario1 dev Mode");
+}
