@@ -91,11 +91,52 @@ console.log("Numbers and Strings can be Equal Scenario3", age + ageStr);
 
 // 4.*false* is true(thy)
 
-// Scenario1
 const devMode = "false";
-
+// Scenario1
 if (!devMode) {
   console.log("*false* Scenario1 not dev Mode");
 } else {
   console.log("*false* Scenario1 dev Mode");
+}
+
+// Scenario2
+if (devMode === "false") {
+  console.log("*false* Scenario1 not dev Mode");
+} else {
+  console.log("*false* Scenario1 dev Mode");
+}
+
+// 5.empty array/object is not Falsy
+
+//Scenario1
+const arrNull = null;
+
+if (!arrNull) {
+  console.log("empty array/object is no array Scenario1");
+} else {
+  console.log("empty array/object is array Scenario1");
+}
+
+//Scenario2
+const arrUndefined = undefined;
+if (!arrUndefined) {
+  console.log("empty array/object is no array Scenario2");
+} else {
+  console.log("empty array/object is array Scenario2");
+}
+
+//Scenario3
+const arrEmpty = [];
+if (!arrEmpty) {
+  console.log("empty array/object is not an array Scenario3");
+} else {
+  console.log("empty array/object is array Scenario3");
+}
+
+//Scenario4
+const ObjectEmpty = {};
+if (!ObjectEmpty) {
+  console.log("empty array/object is not an empty Object Scenario4");
+} else {
+  console.log("empty array/object is empty Object Scenario3");
 }
